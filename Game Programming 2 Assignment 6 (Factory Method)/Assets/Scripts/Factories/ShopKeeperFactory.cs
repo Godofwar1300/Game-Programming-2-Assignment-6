@@ -24,26 +24,26 @@ public class ShopKeeperFactory : NPCFactory
         switch (type)
         {
             case "ShopKeeper Blacksmith":
-                if (shopkeeperPrefab.GetComponent<ShopKeeperBlacksmith>() == null)
+                if (prefab.GetComponent<ShopKeeperBlacksmith>() == null)
                 {
-                    shopkeeperPrefab.AddComponent<ShopKeeperBlacksmith>();
+                    prefab.AddComponent<ShopKeeperBlacksmith>();
                 }
-                if (shopkeeperPrefab.GetComponent<DialogueManager>() == null)
+                if (prefab.GetComponent<DialogueManager>() == null)
                 {
-                    shopkeeperPrefab.AddComponent<DialogueManager>();
+                    prefab.AddComponent<DialogueManager>();
                 }
                 break;
             case "ShopKeeper Swordsmith":
-                if (shopkeeperPrefab.GetComponent<ShopKeeperSwordsmith>() == null)
+                if (prefab.GetComponent<ShopKeeperSwordsmith>() == null)
                 {
-                    shopkeeperPrefab.AddComponent<ShopKeeperSwordsmith>();
+                    prefab.AddComponent<ShopKeeperSwordsmith>();
                 }
-                if (shopkeeperPrefab.GetComponent<DialogueManager>() == null)
+                if (prefab.GetComponent<DialogueManager>() == null)
                 {
-                    shopkeeperPrefab.AddComponent<DialogueManager>();
+                    prefab.AddComponent<DialogueManager>();
                 }
                 break;
         }
-        return shopkeeperPrefab;
+        return prefab;
     }
 }

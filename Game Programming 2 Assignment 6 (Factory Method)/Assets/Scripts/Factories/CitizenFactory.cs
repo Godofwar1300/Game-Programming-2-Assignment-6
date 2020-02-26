@@ -25,27 +25,27 @@ public class CitizenFactory : NPCFactory
         switch(type)
         {
             case "Citizen Townsman":
-                if(citizenPrefab.GetComponent<CitizenTownsman>() == null)
+                if(prefab.GetComponent<CitizenTownsman>() == null)
                 {
-                    citizenPrefab.AddComponent<CitizenTownsman>();
+                    prefab.AddComponent<CitizenTownsman>();
                 }
-                if(citizenPrefab.GetComponent<DialogueManager>() == null)
+                if(prefab.GetComponent<DialogueManager>() == null)
                 {
-                    citizenPrefab.AddComponent<DialogueManager>();
+                    prefab.AddComponent<DialogueManager>();
                 }
                 break;
 
             case "Citizen Townswoman":
-                if (citizenPrefab.GetComponent<CitizenTownswoman>() == null)
+                if (prefab.GetComponent<CitizenTownswoman>() == null)
                 {
-                    citizenPrefab.AddComponent<CitizenTownswoman>();
+                    prefab.AddComponent<CitizenTownswoman>();
                 }
-                if (citizenPrefab.GetComponent<DialogueManager>() == null)
+                if (prefab.GetComponent<DialogueManager>() == null)
                 {
-                    citizenPrefab.AddComponent<DialogueManager>();
+                    prefab.AddComponent<DialogueManager>();
                 }
                 break;
         }
-        return citizenPrefab;
+        return prefab;
     }
 }
