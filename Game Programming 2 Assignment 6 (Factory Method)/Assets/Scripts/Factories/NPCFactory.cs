@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class NPCCreator
+public abstract class NPCFactory
 {
 
     public abstract GameObject CreateNPCPrefab(string type);

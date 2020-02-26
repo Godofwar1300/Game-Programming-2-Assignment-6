@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CitizenCreator : NPCCreator
+public class CitizenFactory : NPCFactory
 {
 
     private GameObject citizenPrefab;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShopKeeperCreator : NPCCreator
+public class ShopKeeperFactory : NPCFactory
 {
     private GameObject shopkeeperPrefab;
 

@@ -7,7 +7,7 @@ public class NPCSpawner : MonoBehaviour
 
     public GameObject[] NPCSpawnLocations = new GameObject[4];
     [SerializeField]
-    public NPCCreator npcFactoryCreator;
+    public NPCFactory npcFactoryCreator;
     public bool creatorIsShopKeeper;
 
     public bool canSpawn1;
@@ -26,8 +26,8 @@ public class NPCSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        npcFactoryCreator = new CitizenCreator();
-        creatorIsShopKeeper = false;
+        npcFactoryCreator = new ShopKeeperFactory();
+        creatorIsShopKeeper = true;
 
         canSpawn1 = true;
         canSpawn2 = true;
@@ -118,12 +118,12 @@ public class NPCSpawner : MonoBehaviour
 
             if (creatorIsShopKeeper)
             {
-                npcFactoryCreator = new CitizenCreator();
+                npcFactoryCreator = new CitizenFactory();
                 creatorIsShopKeeper = false;
             }
             else
             {
-                npcFactoryCreator = new ShopKeeperCreator();
+                npcFactoryCreator = new ShopKeeperFactory();
                 creatorIsShopKeeper = true;
             }
 
