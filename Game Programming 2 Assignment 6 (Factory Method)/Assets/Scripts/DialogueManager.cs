@@ -42,7 +42,7 @@ public class DialogueManager : MonoBehaviour
 
         Debug.Log("canNextLine is: " + canNextLine);
 
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             textSpeed = .005f;
         }
@@ -52,7 +52,7 @@ public class DialogueManager : MonoBehaviour
 
             dialogueText.text = dialogueString;
 
-            if (Input.GetKeyDown(KeyCode.G) && canNextLine)
+            if (Input.GetKeyDown(KeyCode.E) && canNextLine)
             {
                 NextLine();
             }
