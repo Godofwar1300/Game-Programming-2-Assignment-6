@@ -10,7 +10,7 @@ using UnityEngine;
 
 public static class GameStats
 {
-    public static float playerHealth = 150;
+    public static float playerHealth = 175;
     public static int totalNPCs = 0;
 
     public static bool gameIsOver = false;

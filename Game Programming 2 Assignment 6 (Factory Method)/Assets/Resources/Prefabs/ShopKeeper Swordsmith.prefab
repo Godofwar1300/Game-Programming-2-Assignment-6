@@ -125,10 +125,9 @@ MonoBehaviour:
   dialogueCanvasPrefab: {fileID: 0}
   dialogueCanvas: {fileID: 0}
   sentences:
-  - '*Sigh* I do wish that I could go back home to father''s forge. The hard work
-    kept me in shape'
-  - I know, perhaps I could make a sword for you one of these days? Yeah, when I
-    gain a swordsmith apprenticeship I'll make you one!
+  - '*Sigh* I do wish that I could go back home...but maybe you can make it to the
+    end'
+  - 'Pro tip: Make sure to move fast and collect those red floaty things'
   currentSentence: 0
   sentenceLength: 0
   textSpeed: 0

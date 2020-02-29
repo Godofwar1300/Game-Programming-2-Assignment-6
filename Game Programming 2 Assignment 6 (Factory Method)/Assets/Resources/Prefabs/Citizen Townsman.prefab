@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8092753517289781162}
   - component: {fileID: 8092753517289781163}
   m_Layer: 0
-  m_Name: NPC Capsule
+  m_Name: Citizen Townsman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,8 +124,9 @@ MonoBehaviour:
   dialogueCanvasPrefab: {fileID: 0}
   dialogueCanvas: {fileID: 0}
   sentences:
-  - Hello weary foe, my name is Baldur.
-  - I will crush you!
+  - Excuse me sir, you better hurry to the end of the course
+  - Death befalls those who fail but you can heal by collecting the red objects laying
+    around.
   currentSentence: 0
   sentenceLength: 0
   textSpeed: 0

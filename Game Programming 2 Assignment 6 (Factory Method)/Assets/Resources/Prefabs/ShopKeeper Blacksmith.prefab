@@ -125,10 +125,9 @@ MonoBehaviour:
   dialogueCanvasPrefab: {fileID: 0}
   dialogueCanvas: {fileID: 0}
   sentences:
-  - Hello and welcome to my shop...well that's what I would say if I had a shop but
-    I don't have the money for one yet.
-  - Well, it was nice meeting you! I hope your journey is full of glory and good
-    fortune!
+  - Hmmmm, well my shop is closed on account of the dager here, you better reach
+    the end quick
+  - Oh yea...hey! Don't forget to collect the red things for more health
   currentSentence: 0
   sentenceLength: 0
   textSpeed: 0
