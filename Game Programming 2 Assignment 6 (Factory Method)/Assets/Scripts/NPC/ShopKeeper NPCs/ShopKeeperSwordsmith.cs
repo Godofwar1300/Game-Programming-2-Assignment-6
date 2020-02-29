@@ -1,14 +1,15 @@
-﻿using System.Collections;
+﻿/*
+* (Christopher Green)
+* (ShopKeeperSwordsmith.cs)
+* (Assignment 6)
+* (This is the code for the sub-class of the NPC class that hold some basic information (not all are used))
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ShopKeeperSwordsmith : NPC
 {
-
-    //public List<string> names = new List<string> { "James", "John", "Jessie" };
-    //public int minIndex = 0;
-    //public int maxIndex = 2;
-
     public ShopKeeperSwordsmith()
     {
         this.NPCs = NPCType.SHOPKEEPER;
@@ -16,6 +17,4 @@ public class ShopKeeperSwordsmith : NPC
         this.npcAge = 45;
         this.npcGender = "male";
     }
-
-
 }

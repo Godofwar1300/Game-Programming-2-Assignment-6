@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* (Christopher Green)
+* (ShopKeeperFactory.cs)
+* (Assignment 6)
+* (This is the code for the ShopKeeper factory class that implements the methods from the NPCFactory abstract class for the Shopkeeper Type NPCs)
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

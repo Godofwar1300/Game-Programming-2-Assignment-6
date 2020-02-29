@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* (Christopher Green)
+* (ButtonManager.cs)
+* (Assignment 6)
+* (This is the code handles basic button functionalities)
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,9 +24,6 @@ public class ButtonManager : MonoBehaviour
                 break;
             case "Game Over Scene":
                 SceneManager.LoadScene(2);
-                break;
-            case "Instructions Scene":
-                SceneManager.LoadScene(3);
                 break;
         }
     }

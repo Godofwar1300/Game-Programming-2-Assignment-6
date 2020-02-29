@@ -1,13 +1,15 @@
-﻿using System.Collections;
+﻿/*
+* (Christopher Green)
+* (CitizenTownswoman.cs)
+* (Assignment 6)
+* (This is the code for the sub-class of the NPC class that hold some basic information (not all are used))
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CitizenTownswoman : NPC
 {
-    //public List<string> names = new List<string> { "Claire", "Sadie", "Tilly" };
-    //public int minIndex = 0;
-    //public int maxIndex = 2;
-
     public CitizenTownswoman()
     {
         this.NPCs = NPCType.CITIZEN;

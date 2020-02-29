@@ -1,13 +1,15 @@
-﻿using System.Collections;
+﻿/*
+* (Christopher Green)
+* (ShopKeeperBlacksmith.cs)
+* (Assignment 6)
+* (This is the code for the sub-class of the NPC class that hold some basic information (not all are used))
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ShopKeeperBlacksmith : NPC
 {
-    //public List<string> names = new List<string> { "Reginold", "Sean", "Marcus" };
-    //public int minIndex = 0;
-    //public int maxIndex = 2;
-
     public ShopKeeperBlacksmith()
     {
         this.NPCs = NPCType.SHOPKEEPER;

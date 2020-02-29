@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* (Christopher Green)
+* (CitizenFactory.cs)
+* (Assignment 6)
+* (This is the code for the Citizen factory class that implements the methods from the NPCFactory abstract class for the Citizen Type NPCs)
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

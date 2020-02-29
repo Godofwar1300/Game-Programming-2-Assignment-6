@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* (Christopher Green)
+* (DialogueManager.cs)
+* (Assignment 6)
+* (This is the script that handles the dialogue manager when the player interacts with the NPCs)
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -38,10 +44,6 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("The index is: " + currentSentence);
-
-        Debug.Log("canNextLine is: " + canNextLine);
-
         if (Input.GetKeyDown(KeyCode.R))
         {
             textSpeed = .005f;

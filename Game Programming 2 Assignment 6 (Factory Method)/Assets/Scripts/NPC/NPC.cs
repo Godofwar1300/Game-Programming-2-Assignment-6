@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* (Christopher Green)
+* (NPC.cs)
+* (Assignment 6)
+* (This is the super class for NPC)
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
